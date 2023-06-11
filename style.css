@@ -1,0 +1,78 @@
+html{
+    zoom: 30%;
+}
+.Transbox{
+    width: 3500px;
+    padding: 300px;
+    background-color: rgba(0,0,0, 0.65);
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 200px;
+    font-family: sans-serif;
+}
+header,nav{
+    text-align: center;
+}
+nav{
+    background-color: rgb(58, 255, 32);
+    width: auto;
+}
+.Logo{
+    width: 1500px;
+    margin: auto;
+}
+h1{
+    color: rgb(58, 255, 32);
+    font-size: 150px;
+    margin: 0;
+    
+}
+body{
+    background-size: cover;
+}
+nav button {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 8px;
+    border-radius: 10px;
+    padding: 10px;
+}
+main section{
+    font-size: 80px;
+    margin: 90px;
+    color: aliceblue;
+    margin-left: 0px;
+    font-weight: bolder;
+    
+}
+section input {
+    width : 40px;
+    height : 40px;
+    margin: 20px;
+}
+main p{
+    font-size: 45px;
+}
+.StatusBar{
+    width: 2000px;
+    height: 90px;
+    background-color:#ff000000;;
+}
+.ChargedState{
+    width: 1000px;
+    height: 90px;
+    border-radius: 20px;
+}
+#FullCharge{
+    background-color: rgb(52, 185, 0);
+    width: 100%;
+}
+#MediumCharge{
+    background-color: rgb(255, 166, 0);
+    width: 60%;
+}
+#LowCharge{
+    background-color: rgb(255, 0, 0);
+    width: 30%;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Lim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="sfondo.jpg" >
+<!-- Creazione box semitrasparente che conterrà il contenuto della pagina -->
+    <div class="Transbox">
+        <header> 
+            <div class="Logo">
+                <img src="logo.png" alt="Logo Lim"> 
+            </div> 
+                <h1>Taking Booleaners from A to B</h1> 
+        </header>
+<!-- Creazione Pulsanti nella NavBar -->
+        <nav>
+                <form class="Input" action="index.html" method="post">
+                    <button type="button">Prenota</button>
+                    <button type="button">Termina Prenotazione</button>
+                    <button type="button">Accendi Luci</button>  
+                </form>
+        </nav>
+<!-- Creazione delle sezioni dedicate al monitoraggio 
+della carica e alla spunta per la selezione del monopattino -->
+        <main>
+                <section>
+                    <input type="checkbox">Monopattino Gino22
+                    <p>↦Via Guadalamteri - a 220 metri da te</p>
+                    <p>Stato carica:</p>
+
+                    <div class="StatusBar">
+                        <div id="MediumCharge" class="ChargedState"> </div>
+                    </div>
+                </section>
+
+                <section>
+                    <input type="checkbox">Monopattino Mike24
+                    <p>↦Via Ricciardoni - a 420 metri da te</p> 
+                    <p>Stato carica:</p>
+                    
+                    <div class="StatusBar">
+                        <div id="FullCharge" class="ChargedState"> </div>
+                    </div>
+                </section>
+
+                <section>
+                    <input type="checkbox">Monopattino Fede154
+                    <p>↦Via Mentarini - a 490 metri da te</p>
+                    <p>Stato carica:</p>                    
+                    
+                    <div class="StatusBar">
+                        <div id="LowCharge" class="ChargedState"> </div>
+                    </div>       
+                </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
